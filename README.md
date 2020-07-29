@@ -20,7 +20,8 @@ The goal of the test is to provide the user the ability to sign up (create a new
 6. Set up SignUp, Login, Reset Password & SignOut in your project(using Redux is mandatory).
 7. The components have been provided to you in src>pages>auth for SignUp, Login & reset.
 8. For Signout there is a signout button in src>components>header
-9. Profile page is src>pages>pages>profile (remember user can only access this once they are authenticated)
+9. Please add validation rules for each component. example Password must be atleast 8 chars, email is a required input etc.
+10.Profile page is src>pages>pages>profile (remember user can only access this once they are authenticated)
 
 Good Luck! Feel free to use all material accessible to you to accomplish this task.
 
