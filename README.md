@@ -17,7 +17,7 @@ The goal of the test is to provide the user the ability to sign up (create a new
 3. Click Create Project.
 4. Once project is created, go to console -> Develop -> Authentication -> Set up sign-in Method -> Enable Email/Password Authentication.
 5. Now you are ready to set up your project to firebase.
-6. Set up SignUp, Login, Reset Password & SignOut in your project.
+6. Set up SignUp, Login, Reset Password & SignOut in your project(using Redux is mandatory).
 7. The components have been provided to you in src>pages>auth for SignUp, Login & reset.
 8. For Signout there is a signout button in src>components>header
 9. Profile page is src>pages>pages>profile (remember user can only access this once they are authenticated)
