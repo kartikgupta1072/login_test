@@ -1,6 +1,28 @@
-# Material App Pro - React Admin & Dashboard Template
+# Login Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Login Test for proficiency in React, React-Redux
+
+## Requirements
+
+You will need React-Redux-Firebase & Firebase for this project (not included in package.json)
+
+## Goal
+
+The goal of the test is to provide the user the ability to sign up (create a new account), sign in (after account is created), reset password & finally signout. All user credentials will be stored in Firebase and finally user should not be able to go to profile page unless they are authenticated (this is very important!).
+
+## Instructions
+
+1. Go to [http://firebase.com/] and make an account (this is free).
+2. Create a new project in Firebase.com (add Project), enter a project name, disable Google Analytics for your project.
+3. Click Create Project.
+4. Once project is created, go to console -> Develop -> Authentication -> Set up sign-in Method -> Enable Email/Password Authentication.
+5. Now you are ready to set up your project to firebase.
+6. Set up SignUp, Login, Reset Password & SignOut in your project.
+7. The components have been provided to you in src>pages>auth for SignUp, Login & reset.
+8. For Signout there is a signout button in src>components>header
+9. Profile page is src>pages>pages>profile (remember user can only access this once they are authenticated)
+
+Good Luck! Feel free to use all material accessible to you to accomplish this task.
 
 ## Prerequisites
 
@@ -28,6 +50,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Learn More
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+# login_test
